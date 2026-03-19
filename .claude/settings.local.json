@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(mv next.config.ts next.config.mjs)",
+      "Bash(echo \"/** @type {import\\(''next''\\).NextConfig} */:*)"
+    ]
+  }
+}
